@@ -1,0 +1,323 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-size: 2em;
+
+  }
+  h3{
+    font-size: 1.5em;
+
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to bottom right, #2073f0,rgb(123, 202, 33));
+    display:flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+    height: 100vh;
+  }
+  .navbar{
+    width: 100%;
+    background-color:yellow;
+    height: 40px;
+    padding: 5px
+  }
+  .navbar ul{
+    text-align: center;
+    
+
+  }
+  .navbar ul li{
+    /* font-family: 'dosis'; */
+    
+    list-style: none;
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 2px;
+    border-color: black;
+
+    display: inline;
+    cursor: pointer;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 15px 0px 15px
+  }
+
+.services {
+    background-color: rgb(202, 245, 231);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top:50px
+}
+.services-col{
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+}
+.services-col img{
+    width: 80px;
+    max-width: 100%;
+} 
+.wrapper::after{
+    content: "";
+    display: table;
+    clear: both;
+  
+}
+.services-col p{
+    margin-top: 15px;
+    font-size:25px
+}
+.aboutus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(images/group-people-working-out-business-plan-office.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aboutus h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.aboutus p{
+    width: 80%;
+    font-size: 1.5em;
+    color: #fff;
+    margin:auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0,0.2);
+    
+}
+.aboutus-btn{
+    background-color: rgba(0, 0, 0,0.01);
+    padding: 15px;
+    font-size: 1.5em;
+    border: none;
+    outline: 1px solid yellow;
+    color: white;
+    cursor: pointer;
+}
+
+.team{
+    width:100%;
+    padding: 100px;
+    background-color:rgb(202, 245, 231);
+    text-align: center ;
+}
+.team-wrapper{
+    width: 90%;
+    margin:auto;
+    padding-top: 50px;
+
+}
+.col-team{
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+}
+.col-team img{
+    width: 80px;
+    max-width: 100%;
+    margin-bottom:5px;
+    margin-top: 10px;
+}
+.team::after{
+    content: "";
+    display: table;
+    clear: both;
+  
+}
+.t-col{
+    max-width: 80%;
+    
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+.t-col hr{
+    margin: 10px;
+}
+.contact{
+    width: 100%;
+    background-color: yellow;
+    padding: 30px;
+}
+.cta-col{
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+.contact::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.cta-col h3{
+    display: inline;
+    margin-left: 10px;
+}
+
+.contact-info{
+    background-color:rgb(202, 245, 231) ;
+    width:100%;
+    padding: 30px 5px 30px 5px ;
+    height:auto !important;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.contactinfo-col1{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactinfo-col2{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:center;
+    margin: auto;
+
+  
+ }  
+
+  span{
+    border: 1px dotted black;
+    padding:  15px;
+  }
+  .icon-fb{
+    background-color: #316FF6;
+    color: white
+  }
+  .icon-twitter{
+    background-color: #008AD8;
+    color: white;
+  }
+  .icon-gplus{
+    background-color: #db4437;
+    color: white;
+  }
+  .icon-ln{
+    background-color:  #0077B5;
+    color: white;
+  }
+  .contactinfo-col2{
+    
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 3%;
+    align-items: left;
+  } 
+  .contactinfo-col2 input{
+    width:100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .contactinfo-col2 textarea{
+    width:100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .contact-btn{
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: 1px solid black;
+    
+    cursor: pointer;
+  }
+  .contact-btn:hover{
+    background-color:white;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: 1px solid black;
+    
+    
+  }
+  .footer{
+    background-color:#1b1b1f;
+    color:#eee;
+     float: left;
+     padding: 30px;
+  }
+
+  .footer h2{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .footer-col{
+    float: left;
+    width: 33.33%;
+    
+    padding: 10px 30px 10px 30px;
+  }
+  .footer-col::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 768px){
+    .services-col{
+        width: 100%;
+    }
+    .col-team{
+        width: 100%;
+    }
+    .cta-col{
+        width: 100%;
+    }
+    .contact-info{
+      width:100%;
+    }
+    /* .contactinfo-col1{
+        width: 100%;
+    }
+    .contactinfo-col2{
+        width: 100%;
+    } */
+    .footer-col{
+        width: 100%;
+    }
+  }
